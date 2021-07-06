@@ -23,25 +23,8 @@ Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
-" -----------------
-" Config Section
-" -----------------
-
-
-" -----------------
-" - NERDTree
-" -----------------
-" Automatically open NerdTree but return cursor focus to file
-autocmd VimEnter * NERDTree | wincmd p
-
-" -----------------
-" - Key Bindings
-" -----------------
-" Window Navigation with Ctrl-[hjkl]
-noremap <C-J> <C-W>j
-noremap <C-K> <C-W>k
-noremap <C-H> <C-W>h
-noremap <C-L> <C-W>l
-
-" Use ESC to exit insert mode in :term
-tnoremap <C-\> <C-\><C-n>:q!<CR>
+" --------------------
+" Import configuration
+" --------------------
+source $HOME/.config/nvim/key-bindings.vimrc
+source $HOME/.config/nvim/plugin-config.vimrc
