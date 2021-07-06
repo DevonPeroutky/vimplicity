@@ -1,8 +1,8 @@
 call plug#begin("~/.vim/plugged")
 
+" --------------
 " Plugin Section
 " --------------
-
 " File Browser Panel
 Plug 'preservim/nerdtree'
 
@@ -24,8 +24,9 @@ Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 " -----------------
-"Config Section
+" Config Section
 " -----------------
+
 
 " -----------------
 " - NERDTree
