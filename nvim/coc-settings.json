@@ -1,0 +1,21 @@
+{
+  "prettier.requireConfig": true,
+
+  "tslint.enable": true,
+  "tslint.autoFixOnSave": true,
+
+  "snippets.ultisnips.usePythonx": false,
+
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "codeLens.enable": true,
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh"
+}
