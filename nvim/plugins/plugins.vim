@@ -1,19 +1,10 @@
 call plug#begin("~/.vim/plugged")
 
 " --------------
-" Plugin Section
+" General
 " --------------
-" File Browser Panel
-Plug 'preservim/nerdtree'
-
 " Sensible defaults
 Plug 'tpope/vim-sensible'
-
-" Searching for files
-Plug 'ctrlpvim/ctrlp.vim'
-
-" Grepping through files
-Plug 'jremmen/vim-ripgrep'
 
 " Able to editor via the QuickFix Menu
 Plug 'stefandtw/quickfix-reflector.vim'
@@ -21,6 +12,19 @@ Plug 'stefandtw/quickfix-reflector.vim'
 " Syntax and Indentation support for basically every language
 Plug 'sheerun/vim-polyglot'
 
+" --------------
+" NERDTree
+" --------------
+" File Browser Panel
+Plug 'preservim/nerdtree'
+
+" --------------------
+" FZF
+" --------------------
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" TODO: Convert to using coc global
 " --------------------
 " CoC
 " --------------------

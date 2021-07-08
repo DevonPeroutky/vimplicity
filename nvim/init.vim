@@ -6,8 +6,7 @@
 " --------------------------
 " Plugins Configuration
 " --------------------------
-source $HOME/.config/nvim/plugins/plugins.vim
-source $HOME/.config/nvim/plugins/plugin-config.vim
+source $HOME/.config/nvim/plugins/pluginsinit.vim
 
 " --------------------------
 " Key-Mappings Configuration
