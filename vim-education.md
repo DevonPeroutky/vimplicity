@@ -5,3 +5,6 @@
 [] Registers
 [] QuickFix menu and replacing
 [] WTF are snippets?
+
+# Plugin Specific
+

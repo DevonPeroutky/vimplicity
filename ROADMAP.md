@@ -1,9 +1,8 @@
 # Roadmap
-[] Syntax Highlighting / TreeSitter?
-[] LSP integration
-  [] Autocomplete
-[] Snippets
+[] LSP integration || TreeSitter?
 [x] File Explorer
-[] File Searching / FZF / CTRL-P
+[] FZF && RipGrep
 [] Theme(s)
+  [] https://github.com/mhartington/oceanic-next
 [] Airline?
+[] Snippets
