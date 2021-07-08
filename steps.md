@@ -46,6 +46,11 @@ call plug#end()
 2. RipGrep
 3. QuickFix
 
+# ---------------------------
+# Dependencies
+# ---------------------------
+- nodejs>=12.12 for CoC 
+- RipGrep if you want RipGrep integration with fzf
 
 
 
