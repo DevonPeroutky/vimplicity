@@ -60,3 +60,5 @@ call plug#end()
 " --------------------
 source $HOME/.config/nvim/key-bindings.vimrc
 source $HOME/.config/nvim/plugin-config.vimrc
+source $HOME/.config/nvim/terminal.vimrc
+source $HOME/.config/nvim/general.vimrc
