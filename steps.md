@@ -12,8 +12,8 @@ brew install neovim
 # 2. Install Vim-Plug
 ```
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 ```
+
 
 # 3. Create NeoVim configuration at $HOME/.config/nvim/...
 ```

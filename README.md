@@ -1,8 +1,9 @@
-# Things
-[] Syntax Highlight
+# Roadmap
+[] Syntax Highlighting / TreeSitter?
 [] LSP integration
   [] Autocomplete
-  [] Snippets
+[] Snippets
 [x] File Explorer
-[] File Searching
+[] File Searching / FZF / CTRL-P
 [] Theme(s)
+[] Airline?
