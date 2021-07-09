@@ -22,3 +22,8 @@ source $HOME/.config/nvim/terminal.vim
 " Base Configuration
 " --------------------------
 source $HOME/.config/nvim/general.vim
+
+" --------------------------
+" Commands
+" --------------------------
+source $HOME/.config/nvim/commands.vim
