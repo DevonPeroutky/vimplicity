@@ -1,7 +1,8 @@
 # Roadmap
 [] LSP integration || TreeSitter?
 [x] File Explorer
-[] FZF && RipGrep
+[x] FZF
+  [] RipGrep
   [] ack-vim?
 [] Theme(s)
   [] https://github.com/mhartington/oceanic-next
