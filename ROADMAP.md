@@ -1,5 +1,5 @@
 # Roadmap
-[] LSP integration
+[x] LSP integration
   [] Why CocExtensions not being installed via vim-plug
 [x] TreeSitter?
 [x] File Explorer
