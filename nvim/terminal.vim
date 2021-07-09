@@ -5,10 +5,16 @@
 set splitright
 set splitbelow
 
-" Open terminal on ctrl+n
+" Open terminal on ctrl+t
 function! OpenTerminal()
-  split term://zsh
-  resize 10
+  " split term://zsh
+  Tnew
+  resize 20
+endfunction
+
+" Clear the terminal
+function! ClearTerminal()
+  Tclear
 endfunction
 
 " Mapping to open terminal emulator in nvim
@@ -29,3 +35,10 @@ autocmd BufLeave term://* stopinsert
 " autocmd TermClose * bd!|q " quit when a terminal closes instead of showing exit code and waiting
 " noremap <C-d> :q<CR> " make vim behave a bit more like a terminal
 " tnoremap <A-x> <C-\><C-n> " handy binding to get into normal mode from a terminal
+
+" --------------------------------------------
+" NeoTerm Configuration
+" --------------------------------------------
+let g:neoterm_autoinsert = 1
+let g:neoterm_default_mod = 'botright'
+let g:neoterm_clear_cmd = ["\<c-\>"]

@@ -53,8 +53,10 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" TODO: Convert to using coc global
-" Ex: let g:coc_global_extensions = [...]
+" --------------------
+" NeoTerm
+" --------------------
+Plug 'kassio/neoterm'
 
 " --------------------
 " CoC
