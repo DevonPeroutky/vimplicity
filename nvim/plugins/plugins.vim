@@ -12,6 +12,9 @@ Plug 'stefandtw/quickfix-reflector.vim'
 " Syntax and Indentation support for basically every language
 Plug 'sheerun/vim-polyglot'
 
+" Theme
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 " --------------
 " NERDTree
 " --------------
@@ -25,6 +28,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " TODO: Convert to using coc global
+" Ex: let g:coc_global_extensions = [...]
+
 " --------------------
 " CoC
 " --------------------
@@ -54,3 +59,4 @@ Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 
 call plug#end()
 
+colorscheme dracula
