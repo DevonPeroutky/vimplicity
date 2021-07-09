@@ -16,9 +16,13 @@ Plug 'sheerun/vim-polyglot'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 " --------------
+" Treesitter
+" --------------
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" --------------
 " NERDTree
 " --------------
-" File Browser Panel
 Plug 'preservim/nerdtree'
 
 " --------------------
@@ -57,6 +61,21 @@ Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
 " --- Elixir
 Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 
+" --- Scala
+Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
 
 colorscheme dracula
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = 'maintained',
+  highlight = {
+    enable = true
+  },
+  indent = {
+    enable = true
+  }
+}
+EOF

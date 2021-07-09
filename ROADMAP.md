@@ -1,10 +1,12 @@
 # Roadmap
-[] Theme(s)
-  [] https://github.com/mhartington/oceanic-next
-[] LSP integration || TreeSitter?
+[] LSP integration
+  [] Why CocExtensions not being installed via vim-plug
+[x] TreeSitter?
 [x] File Explorer
 [x] FZF
-  [] RipGrep
-  [] ack-vim?
+
+
+# Nice to Have
+[] RipGrep
+[] ack-vim?
 [] Airline?
-[] Snippets
