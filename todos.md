@@ -20,3 +20,5 @@
 [] Terminal 
   [] CMD+K not shitting itself during Terminal mode
   [] Resize the bottom window?
+  [] It's not across the whole bottom?
+  [] wqa does not work if terminal was opened?

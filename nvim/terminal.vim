@@ -26,6 +26,6 @@ autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
 
 " https://www.reddit.com/r/neovim/comments/6kf7vh/i_have_been_doing_everything_inside_of_neovims/
-" noremap <C-d> :q<CR> " make vim behave a bit more like a terminal
 " autocmd TermClose * bd!|q " quit when a terminal closes instead of showing exit code and waiting
+" noremap <C-d> :q<CR> " make vim behave a bit more like a terminal
 " tnoremap <A-x> <C-\><C-n> " handy binding to get into normal mode from a terminal
