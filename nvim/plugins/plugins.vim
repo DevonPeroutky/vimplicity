@@ -1,3 +1,25 @@
+" let g:coc_global_extensions = [
+"       \   'coc-syntax', 
+"       \   'coc-css',
+"       \   'coc-lists',
+"       \   'coc-highlight',
+"       \   'coc-prettier',
+"       \   'coc-pairs',
+"       \   'coc-json',
+"       \   'coc-eslint',
+"       \   'coc-tslint',
+"       \   'coc-yaml',
+"       \   'coc-git',
+"       \   'coc-tsserver',
+"       \   'coc-python',
+"       \   'coc-markdownlint',
+"       \   'coc-html',
+"       \   'coc-stylelint'
+"       \   'coc-elixir',
+"       \   'coc-metals',
+"       \   'coc-tailwindcss'
+"       \ ]
+
 call plug#begin("~/.vim/plugged")
 
 " --------------
@@ -38,8 +60,8 @@ Plug 'junegunn/fzf.vim'
 " CoC
 " --------------------
 " Install CoC
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() } }
 
 " CoC extensions
 " Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
