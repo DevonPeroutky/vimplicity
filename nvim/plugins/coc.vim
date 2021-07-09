@@ -1,6 +1,25 @@
 " --------------------------------------------------------------------------
 " Pulled from https://github.com/neoclide/coc.nvim#example-vim-configuration
 " --------------------------------------------------------------------------
+" let g:coc_global_extensions = ['coc-syntax', 'coc-css',
+"   'coc-lists',
+"   'coc-highlight',
+"   'coc-prettier',
+"   'coc-pairs',
+"   'coc-json',
+"   'coc-eslint',
+"   'coc-tslint',
+"   'coc-yaml',
+"   'coc-git',
+"   'coc-tsserver',
+"   'coc-python',
+"   'coc-markdownlint',
+"   'coc-html',
+"   'coc-stylelint'
+"   'coc-elixir',
+"   'coc-metals',
+"   'coc-tailwindcss'
+"   ]
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim

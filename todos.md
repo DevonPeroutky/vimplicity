@@ -1,13 +1,13 @@
 # To-Dos
 [] LSP Plugin aka Coc Extension
-  [] Why not installing extensions via vim-plug?
+  [x] Why not installing extensions via vim-plug? Still unsure
   [] Lanugages
     [] Kotlin
   [x] Syntax highlighting
-  [] Language Support
-    [] Go to definition
-    [] View references
-    [] Linting
+  [x] Language Support
+    [x] Go to definition
+    [x] View references
+    [x] Linting
 
 ## Random
 [x] Autocomplete. How to make the default selection the first item in the list?
