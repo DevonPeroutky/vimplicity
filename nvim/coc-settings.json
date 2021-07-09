@@ -6,6 +6,7 @@
   "tsserver.trace.server": "verbose",
 
   "snippets.ultisnips.usePythonx": false,
+  "suggest.noselect": false,
 
   "coc.preferences.formatOnSaveFiletypes": [
     "css",

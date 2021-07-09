@@ -10,7 +10,7 @@
     [] Linting
 
 ## Random
-[] Autocomplete. How to make the default selection the first item in the list?
+[x] Autocomplete. How to make the default selection the first item in the list?
 [] Terminal 
   [] CMD+K not shitting itself during Terminal mode
   [] Resize the bottom window?
