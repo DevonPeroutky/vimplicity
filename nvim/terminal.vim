@@ -8,8 +8,12 @@ set splitbelow
 " Open terminal on ctrl+t
 function! OpenTerminal()
   " split term://zsh
-  Tnew
-  resize 20
+  if &buftype ==# 'terminal'
+    vertical Tnew
+  else
+    Tnew
+    resize 20
+  endif
 endfunction
 
 " Clear the terminal
@@ -26,6 +30,7 @@ tnoremap <C-K> <C-\><C-n><C-W>k
 tnoremap <C-J> <C-\><C-n><C-W>j
 tnoremap <C-H> <C-\><C-n><C-W>h
 tnoremap <C-L> <C-\><C-n><C-W>l
+tnoremap <S-Z> <C-\><C-n>:bd!<CR>
  
 " Enter and leave terminal mode (insert mode) when switching between buffers
 autocmd BufWinEnter,WinEnter term://* startinsert
