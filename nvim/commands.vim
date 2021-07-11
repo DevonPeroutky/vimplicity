@@ -12,7 +12,7 @@ command Hello :call Hellosir()
 " close and write all remaining buffers
 " -------------------------------------
 fun! CloseAllWithoutWritingTerminalBuffer()
-    execute 'Tclose!' 
+    execute 'TcloseAll!'
     execute 'wqa<CR>' 
 endfun
 command C :call CloseAllWithoutWritingTerminalBuffer()
