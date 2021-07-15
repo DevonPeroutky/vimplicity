@@ -18,7 +18,8 @@ endfunction
 
 " Clear the terminal
 function! ClearTerminal()
-  Tclear
+  T clear
+  startinsert
 endfunction
 
 " Mapping to open terminal emulator in nvim
@@ -26,11 +27,18 @@ nnoremap <c-t> :call OpenTerminal()<CR>
 
 " Escape and leave terminal at once
 tnoremap <Esc> <C-\><C-n>
+
+" Navigation commands
 tnoremap <C-K> <C-\><C-n><C-W>k
 tnoremap <C-J> <C-\><C-n><C-W>j
 tnoremap <C-H> <C-\><C-n><C-W>h
 tnoremap <C-L> <C-\><C-n><C-W>l
+
+" Leave terminal and close the buffer
 tnoremap <S-Z> <C-\><C-n>:bd!<CR>
+
+" Clear the terminal
+tnoremap jj <C-\><C-n>:call ClearTerminal()<CR>
  
 " Enter and leave terminal mode (insert mode) when switching between buffers
 autocmd BufWinEnter,WinEnter term://* startinsert
