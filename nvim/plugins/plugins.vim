@@ -1,25 +1,3 @@
-" let g:coc_global_extensions = [
-"       \   'coc-syntax', 
-"       \   'coc-css',
-"       \   'coc-lists',
-"       \   'coc-highlight',
-"       \   'coc-prettier',
-"       \   'coc-pairs',
-"       \   'coc-json',
-"       \   'coc-eslint',
-"       \   'coc-tslint',
-"       \   'coc-yaml',
-"       \   'coc-git',
-"       \   'coc-tsserver',
-"       \   'coc-python',
-"       \   'coc-markdownlint',
-"       \   'coc-html',
-"       \   'coc-stylelint'
-"       \   'coc-elixir',
-"       \   'coc-metals',
-"       \   'coc-tailwindcss'
-"       \ ]
-
 call plug#begin("~/.vim/plugged")
 
 " --------------
@@ -57,6 +35,11 @@ Plug 'junegunn/fzf.vim'
 " NeoTerm
 " --------------------
 Plug 'kassio/neoterm'
+
+" --------------------
+" Code Folding
+" --------------------
+Plug 'tmhedberg/SimpylFold'
 
 " --------------------
 " CoC

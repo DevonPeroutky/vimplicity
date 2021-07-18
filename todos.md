@@ -3,15 +3,7 @@
   [x] Why not installing extensions via vim-plug? Still unsure
   [] Lanugages
     [] Kotlin
-  [x] Syntax highlighting
-  [x] Language Support
-    [x] Go to definition
-    [x] View references
-    [x] Linting
-
-## Random
-[] Terminal 
-  [] CMD+K not shitting itself during Terminal mode
+[] Code Folding
 [] Windows
   [] Resizing? 
   [] Minimizing?

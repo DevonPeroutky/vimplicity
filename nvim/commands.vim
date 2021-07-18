@@ -15,5 +15,5 @@ fun! CloseAllWithoutWritingTerminalBuffer()
     execute 'TcloseAll!'
     execute 'wqa<CR>' 
 endfun
-command C :call CloseAllWithoutWritingTerminalBuffer()
+command C :call CloseAllWithoutWritingTerminalBuffer()<CR>
 command B :Buffers<CR>
