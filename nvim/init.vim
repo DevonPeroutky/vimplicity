@@ -27,3 +27,8 @@ source $HOME/.config/nvim/general.vim
 " Commands
 " --------------------------
 source $HOME/.config/nvim/commands.vim
+
+" --------------------------
+" Folding
+" --------------------------
+source $HOME/.config/nvim/folding.vim

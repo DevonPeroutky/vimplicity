@@ -39,7 +39,7 @@ Plug 'kassio/neoterm'
 " --------------------
 " Code Folding
 " --------------------
-Plug 'tmhedberg/SimpylFold'
+Plug 'pseewald/vim-anyfold'
 
 " --------------------
 " CoC
