@@ -71,6 +71,12 @@ Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 " --- Scala
 Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
 
+" --- Kotlin
+Plug 'weirongxu/coc-kotlin', {'do': 'yarn install --frozen-lockfile'}
+
+" --- Golang
+Plug 'josa42/coc-go', {'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
 
 colorscheme dracula

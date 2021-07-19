@@ -19,5 +19,11 @@
   ],
 
   "codeLens.enable": true,
-  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh"
+  "elixir.pathToElixirLS": "~/language-servers/.elixir-ls/release/language_server.sh",
+  "languageserver": {
+    "kotlin": {
+      "command": "~/language-servers/kotlin/server/bin/kotlin-language-server",
+      "filetypes": ["kotlin"]
+    }
+  }
 }
