@@ -25,5 +25,6 @@
       "command": "~/language-servers/kotlin/server/bin/kotlin-language-server",
       "filetypes": ["kotlin"]
     }
-  }
+  },
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 }
