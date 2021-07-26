@@ -1,16 +1,17 @@
 # To-Dos
-[] LSP Plugin aka Coc Extension
-  [x] Why not installing extensions via vim-plug? Still unsure
-  [] Lanugages
-    [] Kotlin
-[] Code Folding
+[] Coc Extensions
+  [] Why not installing extensions via vim-plug? Still unsure
 [] Windows
-  [] Resizing? 
+  [] Resizing on the fly? 
   [] Minimizing?
   [] 'Enter' aka default window opening should be a new vertical split. Except for terminal
-
-## Nice to Have's
 [] RipGrep
   [] ack-vim goodness?
 [] Airline?
   [] GitIntegration?
+[] Support CMD hotkeys
+  [] CMD + / to autocomment
+[] Random
+  [] <ctrl-T> should open up new terminal in terminal mode (in addition to normal mode)
+  [x] Hotkey to open up documentation for method? --> K
+  [] Quickfix??
