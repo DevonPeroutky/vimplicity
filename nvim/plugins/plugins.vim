@@ -20,11 +20,6 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " --------------
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-" --------------
-" NERDTree
-" --------------
-Plug 'preservim/nerdtree'
-
 " --------------------
 " FZF
 " --------------------
@@ -76,6 +71,22 @@ Plug 'weirongxu/coc-kotlin', {'do': 'yarn install --frozen-lockfile'}
 
 " --- Golang
 Plug 'josa42/coc-go', {'do': 'yarn install --frozen-lockfile'}
+
+" ------------------------------------------
+" Find and Replace across multiple files
+" ------------------------------------------
+Plug 'brooth/far.vim'
+
+" ------------------------------------------
+" Add Code Comments with hotkeys
+" ------------------------------------------
+" Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-commentary'
+
+" --------------
+" NERDTree
+" --------------
+Plug 'preservim/nerdtree'
 
 call plug#end()
 

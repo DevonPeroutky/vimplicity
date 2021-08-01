@@ -13,4 +13,4 @@ function! CopyFromClipboard()
 endfunction
 
 " Paste from Clipboard
-nnoremap <C-c> :call CopyFromClipboard()<CR>
+" nnoremap <C-c> :call CopyFromClipboard()<CR>

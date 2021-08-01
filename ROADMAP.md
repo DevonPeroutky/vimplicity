@@ -1,13 +1,17 @@
-# Roadmap
+# New Functionality
+[x] [Find And Replace](https://github.com/brooth/far.vim)
+
+# Improve UX
 [] Hotkeys
-  [] Hotkey to rerun last command?
+  [] Hotkey to rerun last command
   [] [Support CMD key](https://github.com/neovim/neovim/issues/2190)?
-    [] CMD + / to autocomment
 [] Windows
   [] New windows (by default) should open top-right of the most top-right window?
   [] Resizing on the fly? 
   [] Minimizing?
   [] 'Enter' aka default window opening should be a new vertical split. Except for terminal
+[] Coc-Explorer vs. NerdTree
+  [] NerdTree syntax highlighting? https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
 
 # Debug
 [] Coc Extensions
