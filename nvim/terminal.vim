@@ -22,6 +22,12 @@ function! ClearTerminal()
   startinsert
 endfunction
 
+" Clear the terminal and Rerun last command
+function! ClearTerminalAndRerun()
+  T clear
+  T !-2
+endfunction
+
 " Mapping to open terminal emulator in nvim
 nnoremap <c-t> :call OpenTerminal()<CR>
 tnoremap <c-t> <C-\><C-n>:call OpenTerminal()<CR>
@@ -39,7 +45,8 @@ tnoremap <C-L> <C-\><C-n><C-W>l
 tnoremap <S-Z> <C-\><C-n>:bd!<CR>
 
 " Clear the terminal
-tnoremap jj <C-\><C-n>:call ClearTerminal()<CR>
+" tnoremap jj <C-\><C-n>:call ClearTerminal()<CR>
+nnoremap <leader>r :call ClearTerminalAndRerun()<CR>
  
 " Enter and leave terminal mode (insert mode) when switching between buffers
 autocmd BufWinEnter,WinEnter term://* startinsert
