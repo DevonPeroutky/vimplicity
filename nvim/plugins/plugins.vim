@@ -27,9 +27,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " --------------------
-" NeoTerm
+" Terminal
 " --------------------
-Plug 'kassio/neoterm'
+" Plug 'kassio/neoterm'
+Plug 'AnotherProksY/ez-window'
 
 " --------------------
 " Code Folding

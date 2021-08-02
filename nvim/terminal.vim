@@ -1,3 +1,7 @@
+" NOTE: We are no longer using this because we
+" have swapped NeoTerm for ez-window for 
+" simplicity
+"
 " --------------------------------------------
 " Terminal Configuration
 " --------------------------------------------
@@ -29,8 +33,8 @@ function! ClearTerminalAndRerun()
 endfunction
 
 " Mapping to open terminal emulator in nvim
-nnoremap <c-t> :call OpenTerminal()<CR>
-tnoremap <c-t> <C-\><C-n>:call OpenTerminal()<CR>
+" nnoremap <c-t> :call OpenTerminal()<CR>
+" tnoremap <c-t> <C-\><C-n>:call OpenTerminal()<CR>
 
 " Escape and leave terminal at once
 tnoremap <Esc> <C-\><C-n>
