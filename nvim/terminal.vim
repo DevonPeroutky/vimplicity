@@ -1,6 +1,5 @@
 " NOTE: We are no longer using this because we
-" have swapped NeoTerm for ez-window for 
-" simplicity
+" have swapped NeoTerm for window-management.vim
 "
 " --------------------------------------------
 " Terminal Configuration

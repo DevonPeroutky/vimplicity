@@ -2,18 +2,18 @@
 [] Terminal
   [] Re-add ability to clearAndRerun() via <C-R>
 [] Windows
-  [] Auto-resize based on content using [lens.vim](https://github.com/camspiers/lens.vim)
-  [] Better / faster resizing on demand?
-  [] New windows (by default) should open top-right of the most top-right window?
+  [x] Auto-resize based on content using [lens.vim](https://github.com/camspiers/lens.vim)
+  [x] Better / faster resizing on demand?
+    [x] Re-write EZ Window because we don't want new splits when navigating past edges!
+    [x] Just want terminal behavior and on-the-fly resizing
 [x] [Find And Replace](https://github.com/brooth/far.vim)
-  [] Setup better commands?
+  [] Setup easier commands?
 [] Coc-Explorer vs. NerdTree
-  [] NerdTree syntax highlighting? https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
 
 # Debug (2)
 [] Coc Extensions
   [] Why not installing extensions via vim-plug? Still unsure
-[] Why scala-metals times out alot
+[] Why trailing characters every once in a while (When trying to exit via :C)?
 
 
 # Future Work / Nice to Have's (2)
@@ -25,6 +25,14 @@
 
 
 # Productionize
-[] Install / Setup script
 [] Cleanup / reorganize
 [] Documentation
+[] Install / Setup script
+
+
+# Dream Big
+- CLI for installing, configuring, and updating the setup
+    [] View, Install, Remove, and Update Plugins
+    [] View Hotkeys, Commands, and other listeners?
+      [] Add/Scaffold new ones?
+    [] View summary/health of setup (brexctl doctor)

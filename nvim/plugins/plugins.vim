@@ -30,7 +30,7 @@ Plug 'junegunn/fzf.vim'
 " Terminal
 " --------------------
 " Plug 'kassio/neoterm'
-Plug 'AnotherProksY/ez-window'
+" Plug 'AnotherProksY/ez-window'
 
 " --------------------
 " Code Folding
@@ -83,6 +83,12 @@ Plug 'brooth/far.vim'
 " ------------------------------------------
 " Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-commentary'
+
+" ------------------------------------------
+" Auto resize windows based on content
+" ------------------------------------------
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
 
 " --------------
 " NERDTree
