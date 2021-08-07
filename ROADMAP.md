@@ -1,15 +1,15 @@
 # Improve UX (3)
 [x] [Find And Replace](https://github.com/brooth/far.vim)
   [] Setup easier commands?
-[] Coc-Explorer vs. NerdTree
+[] Turn building CoC-extensions from source --> use release branch
+  [] Maybe why coc-extensions aren't installing?
 
 # Debug (2)
 [] Coc Extensions
   [] Why not installing extensions via vim-plug? Still unsure
-[] Why trailing characters every once in a while (When trying to exit via :C)?
-
 
 # Future Work / Nice to Have's (2)
+[] NERDTree --> CoC-Explorer
 [] Start using Quickfix Menu?
 [] Temporarily enter insert mode?
 [] RipGrep
