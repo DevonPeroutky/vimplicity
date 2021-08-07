@@ -14,19 +14,9 @@ source $HOME/.config/nvim/plugins/pluginsinit.vim
 source $HOME/.config/nvim/key-bindings.vim
 
 " --------------------------
-" Terminal Configuration
-" --------------------------
-source $HOME/.config/nvim/terminal.vim
-
-" --------------------------
 " Base Configuration
 " --------------------------
 source $HOME/.config/nvim/general.vim
-
-" --------------------------
-" Commands
-" --------------------------
-source $HOME/.config/nvim/commands.vim
 
 " --------------------------
 " Folding

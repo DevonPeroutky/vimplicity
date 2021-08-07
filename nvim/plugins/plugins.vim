@@ -29,7 +29,7 @@ Plug 'junegunn/fzf.vim'
 " --------------------
 " Terminal
 " --------------------
-" Plug 'kassio/neoterm'
+Plug 'kassio/neoterm'
 " Plug 'AnotherProksY/ez-window'
 
 " --------------------

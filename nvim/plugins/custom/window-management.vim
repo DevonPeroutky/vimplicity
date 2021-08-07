@@ -1,5 +1,7 @@
+" --------------------------------------------------------------
 " Simple pluging for window navigation, management, and resizing   
-
+" Heavily inspired by https://github.com/AnotherProksY/ez-window
+" --------------------------------------------------------------
 if exists('g:loaded_ez_window') || &cp
   finish
 end
@@ -29,18 +31,12 @@ function! s:NewTerminal()
         exe "bd! " . t:terminal_buffer
         unlet t:terminal_buffer
       else
-        botright split
-        resize 10
-        terminal
-        let t:terminal_buffer = bufnr()
-        normal i   
+        Ttoggle
+        " resize 20
       endif
     else
-      botright split
-      resize 10
-      terminal
-      let t:terminal_buffer = bufnr()
-      normal i
+      Ttoggle
+      " resize 20
     endif
   else
     if exists('t:terminal_buffer')

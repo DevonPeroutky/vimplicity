@@ -1,6 +1,4 @@
 # Improve UX (3)
-[] Terminal
-  [] Re-add ability to clearAndRerun() via <C-R>
 [x] [Find And Replace](https://github.com/brooth/far.vim)
   [] Setup easier commands?
 [] Coc-Explorer vs. NerdTree
