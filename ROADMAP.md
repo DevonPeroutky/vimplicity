@@ -1,21 +1,13 @@
 # Improve UX (3)
-[x] [Find And Replace](https://github.com/brooth/far.vim)
-  [] Setup easier commands?
 [] Turn building CoC-extensions from source --> use release branch
   [] Maybe why coc-extensions aren't installing?
 
-# Debug (2)
-[] Coc Extensions
-  [] Why not installing extensions via vim-plug? Still unsure
-
 # Future Work / Nice to Have's (2)
 [] NERDTree --> CoC-Explorer
-[] Start using Quickfix Menu?
-[] Temporarily enter insert mode?
+[] Setup easier [Find And Replace](https://github.com/brooth/far.vim) commands
 [] RipGrep
 [] ack-vim?
 [] Airline?
-
 
 # Productionize
 [] Cleanup / reorganize
