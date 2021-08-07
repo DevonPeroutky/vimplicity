@@ -1,7 +1,3 @@
-# Improve UX (3)
-[] Turn building CoC-extensions from source --> use release branch
-  [] Maybe why coc-extensions aren't installing?
-
 # Future Work / Nice to Have's (2)
 [] NERDTree --> CoC-Explorer
 [] Setup easier [Find And Replace](https://github.com/brooth/far.vim) commands
@@ -10,6 +6,7 @@
 [] Airline?
 
 # Productionize
+[x] Convert install coc extensions via vim-plug to `g:coc_global_extensions`
 [] Cleanup / reorganize
 [] Documentation
 [] Install / Setup script

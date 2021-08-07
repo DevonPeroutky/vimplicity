@@ -22,3 +22,5 @@ source $HOME/.config/nvim/general.vim
 " Folding
 " --------------------------
 source $HOME/.config/nvim/folding.vim
+
+
