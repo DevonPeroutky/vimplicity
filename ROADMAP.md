@@ -1,16 +1,28 @@
+# Immediate
+- scalafmt on save? Autosave?
+- Comments aka. Scaladocs
+- Reload Metals?
+- Fully exit out of search with Escape
+- Save and rerun in :R
+
 # Future Work / Nice to Have's (2)
+[] nvim.Telescope
+[] Airline?
 [] NERDTree --> CoC-Explorer
+[] Vim workspace?
+  [] Autosave?
 [] Setup easier [Find And Replace](https://github.com/brooth/far.vim) commands
 [] RipGrep
 [] ack-vim?
-[] Airline?
 
 # Productionize
 [x] Convert install coc extensions via vim-plug to `g:coc_global_extensions`
 [] Cleanup / reorganize
 [] Documentation
 [] Install / Setup script
-
+  [] Script that pulls the latest master and completely overwrites ~/.config/nvim directory
+    [] Make sure we prompt the user to confirm they want their neovim setup overwritten
+    [] The complete overwrite should handle both installs and updates
 
 # Dream Big
 - CLI for installing, configuring, and updating the setup

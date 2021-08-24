@@ -1,8 +1,10 @@
 # ------------------------------------
-# Client side (On the user's computer)
+# What the script needs to do
 # ------------------------------------
-# 0. Learn Vim
-:Tutor is a good resource
+
+# 0. Install Dependencies
+- Install nodejs>=12.12 for Coc.Nvim `curl -sL install-node.now.sh/lts | bash`
+- RipGrep
 
 # 1. Install Neovim (Does it need to be nightly?)
 ```
@@ -14,43 +16,40 @@ brew install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-
-# 3. Create NeoVim configuration at $HOME/.config/nvim/...
+# 4. Install repo and set path to init.vim
 ```
-mkdir ~/.config/nvim
-echo 'call plug#begin("~/.vim/plugged")
-
-" Plugin Section
-
-call plug#end()
-
-"Config Section' > ~/.config/nvim/init.vim
+cp -P nvim ~/.config/vimplicity
+$XDG_CONFIG_HOME="~/.config/vimplicity"
 ```
 
-# 4. Setup CoC aka LSP support
-1. Install nodejs>=12.12 `curl -sL install-node.now.sh/lts | bash`
+# 5. Install Plugins & CoC extensions?
+```
+nvim :PlugInstall ?
+```
 
 
-# ------------------------------------
-# Server side
-# ------------------------------------
-1. Install nodejs>=12.12 `curl -sL install-node.now.sh/lts | bash`
+# UX
+## Installation
+```
+cd ~/.config/
+git clone https://github.com/DevonPeroutky/vimplicity 
+cd vimplicity;
+./setup.sh;
+```
 
 
+## Update
+```
+cd ~/.config/vimiplicity
+git pull origin
+re-source neovim
+```
 
+## Custom setup
+```
+git checkout -b my-custom-branch
 
-# ---------------------------
-# TBD
-# ---------------------------
-1. TreeSitter And/Or Syntax highlighting
-2. RipGrep
-3. QuickFix
-
-# ---------------------------
-# Dependencies
-# ---------------------------
-- nodejs>=12.12 for CoC 
-- RipGrep if you want RipGrep integration with fzf
+```
 
 
 
