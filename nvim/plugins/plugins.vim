@@ -97,9 +97,24 @@ Plug 'camspiers/lens.vim'
 " --------------
 Plug 'preservim/nerdtree'
 
+" --------------
+" Themes
+" --------------
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'joshdick/onedark.vim'
+
 call plug#end()
 
-colorscheme dracula
+" colorscheme dracula
+
+" colorscheme tokyonight
+
+" syntax enable
+" set background=dark
+" colorscheme solarized
+
+syntax on
+colorscheme onedark
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {

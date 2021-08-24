@@ -7,6 +7,7 @@ set splitbelow
 
 " Clear the terminal and Rerun last command
 function! ClearTerminalAndRerun()
+  " execute "w<CR>"
   T clear
   T !-2
 endfunction
