@@ -1,16 +1,15 @@
 # Immediate
 - scalafmt on save? Autosave?
 - Comments aka. Scaladocs
-- Save and rerun in :R
 
 # Future Work / Nice to Have's (2)
 [] nvim.Telescope
   [] Fully exit out of search with Escape
 [] Airline?
+[] Setup easier [Find And Replace](https://github.com/brooth/far.vim) commands
 [] NERDTree --> CoC-Explorer
 [] Vim workspace?
   [] Autosave?
-[] Setup easier [Find And Replace](https://github.com/brooth/far.vim) commands
 [] RipGrep
 [] ack-vim?
 
