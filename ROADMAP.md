@@ -1,12 +1,11 @@
 # Immediate
 - scalafmt on save? Autosave?
 - Comments aka. Scaladocs
-- Reload Metals?
-- Fully exit out of search with Escape
 - Save and rerun in :R
 
 # Future Work / Nice to Have's (2)
 [] nvim.Telescope
+  [] Fully exit out of search with Escape
 [] Airline?
 [] NERDTree --> CoC-Explorer
 [] Vim workspace?
