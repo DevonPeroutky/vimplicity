@@ -37,7 +37,6 @@ Plug 'kassio/neoterm'
 " --------------------
 Plug 'pseewald/vim-anyfold'
 
-
 " --------------------
 " CoC
 " --------------------
@@ -98,10 +97,32 @@ Plug 'camspiers/lens.vim'
 Plug 'preservim/nerdtree'
 
 " --------------
+" Telescope
+" --------------
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
+" --------------
 " Themes
 " --------------
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'joshdick/onedark.vim'
+
+" --------------
+" NeoFormat
+" --------------
+Plug 'sbdchd/neoformat'
+
+" --------------
+" Startify
+" --------------
+Plug 'mhinz/vim-startify'
+
+
+" ----------------------------
+" Focus and window resizing
+" ----------------------------
+Plug 'beauwilliams/focus.nvim'
 
 call plug#end()
 
@@ -126,4 +147,3 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
-EOF

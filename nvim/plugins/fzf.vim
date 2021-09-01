@@ -1,6 +1,6 @@
 nnoremap <silent> <C-p> :Files<CR>
 nnoremap <silent> <C-g> :GFiles<CR>
-nnoremap <C-f> :Rg! 
+" nnoremap <C-f> :Rg! 
 
 "defalut regex tool
 "let $FZF_DEFAULT_COMMAND = 'ag -g ""'
