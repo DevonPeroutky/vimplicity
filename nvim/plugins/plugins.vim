@@ -129,6 +129,7 @@ Plug 'beauwilliams/focus.nvim'
 " ----------------------------
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
 
