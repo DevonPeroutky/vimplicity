@@ -1,13 +1,10 @@
 {
   "prettier.requireConfig": true,
-
   "tslint.enable": true,
   "tslint.autoFixOnSave": true,
   "tsserver.trace.server": "verbose",
-
   "snippets.ultisnips.usePythonx": false,
   "suggest.noselect": false,
-
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
@@ -17,14 +14,16 @@
     "typescript",
     "typescriptreact"
   ],
-
   "codeLens.enable": true,
   "elixir.pathToElixirLS": "~/language-servers/.elixir-ls/release/language_server.sh",
   "languageserver": {
     "kotlin": {
       "command": "~/language-servers/kotlin/server/bin/kotlin-language-server",
-      "filetypes": ["kotlin"]
+      "filetypes": [
+        "kotlin"
+      ]
     }
   },
-  "metals.javaHome": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
+  "explorer.file.reveal.whenOpen": true
 }

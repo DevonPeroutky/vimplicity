@@ -1,14 +1,6 @@
 # Immediate
-- Convert install coc extensions via vim-plug to `g:coc_global_extensions`
-- Finalize animate/window resize with focus vs. lens
-- Window / Buffer management
-
-# Window & Buffer management
-- Buffer management
-  - https://github.com/beauwilliams/focus.nvim
-
-# Plugins
-- vim-airline or https://github.com/ap/vim-buftabline or https://github.com/zefei/vim-wintabs or https://github.com/vim-ctrlspace/vim-ctrlspace
+- Color current tab in tabeline vim-buftabline
+  - :help buftabline-colors
 - nvim.Telescope
   [] Migrate from ripGrep to Telescope w/ripGrep?
     [] How to filter by filetype the way you would with ":vimgrep search_phrase **/**.py"
@@ -16,6 +8,7 @@
   [] Replace [Find And Replace](https://github.com/brooth/far.vim) commands with Telescope + quickfix?
 
 # Productionize
+
 [] vim-cheatsheet
 [] Cleanup / reorganize
 [] Documentation commands and key mappings
@@ -29,6 +22,7 @@
 - Why comments are flaky? Probably a bloop issue
 
 # Dream Big
+
 - CLI for installing, configuring, and updating the setup
     [] View, Install, Remove, and Update Plugins
     [] View Hotkeys, Commands, and other listeners?

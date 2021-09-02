@@ -41,38 +41,7 @@ Plug 'pseewald/vim-anyfold'
 " CoC
 " --------------------
 " Install CoC
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() } }
-
-" CoC extensions
-" Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-lists', {'do': 'yarn install --frozen-lockfile'} " mru and stuff
-" Plug 'neoclide/coc-highlight', {'do': 'yarn install --frozen-lockfile'} " color highlighting
-" Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-git', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-yaml'
-" " Plug 'weirongxu/coc-explorer', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
-" 
-" " --- Typescript
-" Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
-" 
-" " --- Elixir
-" Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
-" 
-" " --- Scala
-" Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
-" 
-" " --- Kotlin
-" Plug 'weirongxu/coc-kotlin', {'do': 'yarn install --frozen-lockfile'}
-" 
-" " --- Golang
-" Plug 'josa42/coc-go', {'do': 'yarn install --frozen-lockfile'}
 
 " ------------------------------------------
 " Find and Replace across multiple files
@@ -88,8 +57,8 @@ Plug 'tpope/vim-commentary'
 " ------------------------------------------
 " Auto resize windows based on content
 " ------------------------------------------
-Plug 'camspiers/animate.vim'
-Plug 'camspiers/lens.vim'
+" Plug 'camspiers/animate.vim'
+" Plug 'camspiers/lens.vim'
 
 " --------------
 " NERDTree
@@ -129,7 +98,14 @@ Plug 'beauwilliams/focus.nvim'
 " ----------------------------
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
+
+
+" ----------------------------
+" Tabline
+" ----------------------------
+" Plug 'zefei/vim-wintabs'
+" Plug 'zefei/vim-wintabs-powerline'
+Plug 'ap/vim-buftabline'
 
 call plug#end()
 
@@ -154,3 +130,4 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
+EOF

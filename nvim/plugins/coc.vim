@@ -4,27 +4,28 @@
 " Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
 " Plug 'weirongxu/coc-explorer', {'do': 'yarn install --frozen-lockfile'}
 let g:coc_global_extensions = [
-      \ 'coc-prettier',
       \ 'coc-css',
-      \ 'coc-lists',
-      \ 'coc-highlight',
-      \ 'coc-json',
-      \ 'coc-html',
-      \ 'coc-git',
-      \ 'coc-yaml',
-      \ 'coc-tailwindcss',
-      \ 'coc-tsserver',
-      \ 'coc-tslint',
-      \ 'coc-eslint',
       \ 'coc-elixir',
-      \ 'coc-metals',
-      \ 'coc-kotlin',
+      \ 'coc-eslint',
+      \ 'coc-explorer',
+      \ 'coc-git',
       \ 'coc-go',
-      \ 'coc-syntax',
-      \ 'coc-pairs',
-      \ 'coc-python',
+      \ 'coc-highlight',
+      \ 'coc-html',
+      \ 'coc-json',
+      \ 'coc-kotlin',
+      \ 'coc-lists',
       \ 'coc-markdownlint',
-      \ 'coc-stylelint']
+      \ 'coc-metals',
+      \ 'coc-pairs',
+      \ 'coc-prettier',
+      \ 'coc-python',
+      \ 'coc-stylelint',
+      \ 'coc-syntax',
+      \ 'coc-tailwindcss',
+      \ 'coc-tslint',
+      \ 'coc-tsserver',
+      \ 'coc-yaml']
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
