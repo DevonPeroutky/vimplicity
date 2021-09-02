@@ -1,6 +1,5 @@
 # Immediate
 - Toggle sidebar with ctrl + b
-- Make enter finish resizing
 - Convert install coc extensions via vim-plug to `g:coc_global_extensions`
 - Finalize animate/window resize with focus vs. lens
 - Window / Buffer management

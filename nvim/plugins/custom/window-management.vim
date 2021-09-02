@@ -77,6 +77,7 @@ let s:code_list = {
      \  'right'  :'108',
      \  'finish' :'113',
      \  'escape' :'27',
+     \  'enter'  :'13',
      \}
 
 
@@ -141,6 +142,10 @@ function! s:ResizeMode(commands)
     elseif c == s:code_list['right'] "l
       exec l:commands['right']
     elseif c == s:code_list['finish'] "q
+      redraw
+      echo "Finished!"
+      break
+    elseif c == s:code_list['enter'] "ESC
       redraw
       echo "Finished!"
       break
