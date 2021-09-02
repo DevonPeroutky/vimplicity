@@ -124,6 +124,11 @@ Plug 'mhinz/vim-startify'
 " ----------------------------
 Plug 'beauwilliams/focus.nvim'
 
+" ----------------------------
+" Git
+" ----------------------------
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " colorscheme dracula
