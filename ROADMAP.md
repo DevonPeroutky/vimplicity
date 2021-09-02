@@ -1,5 +1,4 @@
 # Immediate
-- Toggle sidebar with ctrl + b
 - Convert install coc extensions via vim-plug to `g:coc_global_extensions`
 - Finalize animate/window resize with focus vs. lens
 - Window / Buffer management
@@ -15,10 +14,6 @@
     [] How to filter by filetype the way you would with ":vimgrep search_phrase **/**.py"
   [] Integrate with the quickfix list?
   [] Replace [Find And Replace](https://github.com/brooth/far.vim) commands with Telescope + quickfix?
-
-
-# Future Work / Nice to Have's (2)
-[] NERDTree --> CoC-Explorer?
 
 # Productionize
 [] vim-cheatsheet
