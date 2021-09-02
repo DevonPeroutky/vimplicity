@@ -9,7 +9,6 @@
   - https://github.com/beauwilliams/focus.nvim
 
 # Plugins
-- [vim-fugative](https://github.com/tpope/vim-fugitive) or https://github.com/sindrets/diffview.nvim
 - vim-airline or https://github.com/ap/vim-buftabline or https://github.com/zefei/vim-wintabs or https://github.com/vim-ctrlspace/vim-ctrlspace
 - nvim.Telescope
   [] Migrate from ripGrep to Telescope w/ripGrep?

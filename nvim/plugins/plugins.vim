@@ -128,6 +128,7 @@ Plug 'beauwilliams/focus.nvim'
 " Git
 " ----------------------------
 Plug 'tpope/vim-fugitive'
+Plug 'sindrets/diffview.nvim'
 
 call plug#end()
 
