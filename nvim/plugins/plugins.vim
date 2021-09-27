@@ -74,8 +74,8 @@ Plug 'nvim-telescope/telescope.nvim'
 " --------------
 " Themes
 " --------------
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'joshdick/onedark.vim'
+Plug 'shaunsingh/nord.nvim'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 " --------------
 " NeoFormat
@@ -99,26 +99,30 @@ Plug 'beauwilliams/focus.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
 
-
 " ----------------------------
 " Tabline
 " ----------------------------
-" Plug 'zefei/vim-wintabs'
-" Plug 'zefei/vim-wintabs-powerline'
 Plug 'ap/vim-buftabline'
+" Plug 'akinsho/bufferline.nvim'
+" Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
 " colorscheme dracula
 
-" colorscheme tokyonight
-
-" syntax enable
-" set background=dark
-" colorscheme solarized
-
 syntax on
-colorscheme onedark
+let g:nord_contrast = v:true
+let g:nord_borders = v:false
+let g:nord_cursorline_transparent = v:true
+let g:nord_italic = v:false
+colorscheme nord
+" let g:material_theme_style = 'darker'
+" colorscheme material
+
+" set termguicolors
+" lua << EOF
+" require("bufferline").setup{}
+" EOF
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
