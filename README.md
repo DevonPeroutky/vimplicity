@@ -8,14 +8,7 @@
   - Integrate with the quickfix list? --> `<C-q>` --> `:cfdo %s/old/new/gc`?
   - Replace [Find And Replace](https://github.com/brooth/far.vim) commands with Telescope + quickfix?
 
-### Tabline
-- [vim-lightline](https://github.com/itchyny/lightline.vim)
-- [Roadmap](https://yeripratama.com/blog/customizing-vim-lightline/)
-  - Handle sidebar spacing?
-  - Remove status line completely on the bottom
-  - Filter out the terminal in the buffer list?
-    - Should terminal be a tab split vs buffer?
-  - Cleanup
+### Tabline & Statusline
 
 ### Sidebar
 - [Coc-explorer](https://github.com/weirongxu/coc-explorer)

@@ -1,20 +1,20 @@
 # Immediate
-- [Better Quickfix?](https://github.com/kevinhwang91/nvim-bqf)
-- Remove treesitter?
-- Fully close buffers?
-- Setup Python?
 
-# Productionize
+- Setup Python?
+- [Better Quickfix?](https://github.com/kevinhwang91/nvim-bqf)
+
+## Productionize
+
 - Vim-Cheatsheet
-- Cleanup / reorganize
-- Documentation commands and key mappings
+- Cleanup / reorganize Documentation commands and key mappings
 - Move default config location for neovim
 - Install / Setup script
-  - Script that pulls the latest master and completely overwrites ~/.config/nvim directory
+  - Script to pull latest master and completely overwrite ~/.config/nvim directory
     - Make sure we ask the user to confirm they want their neovim setup overwritten
     - The complete overwrite should handle both installs and updates
 
-# Dream Big
+## Dream Big
+
 - CLI for installing, configuring, and updating the setup
   - Auto updating
   - View, Install, Remove, and Update Plugins
