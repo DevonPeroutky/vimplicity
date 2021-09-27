@@ -35,7 +35,7 @@ tnoremap <C-K> <C-\><C-n><C-W>k
 tnoremap <C-J> <C-\><C-n><C-W>j
 tnoremap <C-H> <C-\><C-n><C-W>h
 tnoremap <C-L> <C-\><C-n><C-W>l
-tnoremap <C-t> <C-\><C-n><C-W><C-t>
+tnoremap <C-t> <C-\><C-n><C-t>
 
 " --------------------------------------------
 " Commands
@@ -44,3 +44,16 @@ command C :call CloseAllWithoutWritingTerminalBuffer()
 command B :Buffers
 command R :call ClearTerminalAndRerun()
 
+
+if exists('##TerminalOpen')
+  autocmd TerminalOpen * call neoterm#load_session()
+
+  " Unlist terminal buffers causing them not appearing in ls or be recognized by :bn/:bp
+  autocmd TerminalOpen * if bufwinnr('') > 0 | setlocal nobuflisted | endif
+end
+
+if exists('##TermOpen')
+  autocmd TermOpen *neoterm* call neoterm#load_session()
+  " Unlist terminal buffers causing them not appearing in ls or be recognized by :bn/:bp
+  autocmd TermOpen * if bufwinnr('') > 0 | setlocal nobuflisted | endif
+end
