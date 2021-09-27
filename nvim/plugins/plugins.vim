@@ -70,6 +70,8 @@ Plug 'preservim/nerdtree'
 " --------------
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'BurntSushi/ripgrep'
 
 " --------------
 " Themes
@@ -87,7 +89,6 @@ Plug 'sbdchd/neoformat'
 " --------------
 Plug 'mhinz/vim-startify'
 
-
 " ----------------------------
 " Focus and window resizing
 " ----------------------------
@@ -102,9 +103,12 @@ Plug 'sindrets/diffview.nvim'
 " ----------------------------
 " Tabline
 " ----------------------------
-Plug 'ap/vim-buftabline'
+" Plug 'ap/vim-buftabline'
+" Plug 'ap/vim-buftabline'
 " Plug 'akinsho/bufferline.nvim'
 " Plug 'ryanoasis/vim-devicons'
+Plug 'itchyny/lightline.vim'
+Plug 'mengelbrecht/lightline-bufferline'
 
 call plug#end()
 
@@ -112,7 +116,7 @@ call plug#end()
 
 syntax on
 let g:nord_contrast = v:true
-let g:nord_borders = v:false
+let g:nord_borders = v:true
 let g:nord_cursorline_transparent = v:true
 let g:nord_italic = v:false
 colorscheme nord

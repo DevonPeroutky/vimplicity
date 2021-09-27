@@ -196,4 +196,4 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Coc-Explorer
 nnoremap <space>e :CocCommand explorer<CR>
-
+autocmd FileType coc-explorer-border set winblend=30

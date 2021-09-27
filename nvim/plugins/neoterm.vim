@@ -35,6 +35,7 @@ tnoremap <C-K> <C-\><C-n><C-W>k
 tnoremap <C-J> <C-\><C-n><C-W>j
 tnoremap <C-H> <C-\><C-n><C-W>h
 tnoremap <C-L> <C-\><C-n><C-W>l
+tnoremap <C-t> <C-\><C-n><C-W><C-t>
 
 " --------------------------------------------
 " Commands

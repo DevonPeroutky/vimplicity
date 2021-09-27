@@ -25,5 +25,9 @@
     }
   },
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
-  "explorer.file.reveal.whenOpen": true
+  "explorer.file.reveal.whenOpen": true,
+  "explorer.sources": [
+    { "name": "buffer", "expand": true },
+    { "name": "file", "expand": true }
+  ]
 }
