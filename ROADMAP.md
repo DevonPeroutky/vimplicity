@@ -1,16 +1,8 @@
 # Immediate
-- [Better Quickfix](https://github.com/kevinhwang91/nvim-bqf)
-- [vim-lightline](https://yeripratama.com/blog/customizing-vim-lightline/)
-  - Handle sidebar spacing?
-  - Remove status line completely on the bottom
-  - Filter out the terminal in the buffer list?
-    - Should terminal be a tab split vs buffer?
-
-- nvim.Telescope
-  - How to filter by filetype the way you would with ":vimgrep search_phrase **/**.py"
-    - Setup ith [telescope-fzf-native](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
-  - Integrate with the quickfix list? --> <C-q> --> :cfdo %s/old/new/gc
-  - Replace [Find And Replace](https://github.com/brooth/far.vim) commands with Telescope + quickfix?
+- [Better Quickfix?](https://github.com/kevinhwang91/nvim-bqf)
+- Remove treesitter?
+- Fully close buffers?
+- Setup Python?
 
 # Productionize
 - Vim-Cheatsheet
