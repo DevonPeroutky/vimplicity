@@ -104,11 +104,10 @@ Plug 'sindrets/diffview.nvim'
 " Tabline
 " ----------------------------
 " Plug 'ap/vim-buftabline'
-" Plug 'ap/vim-buftabline'
-" Plug 'akinsho/bufferline.nvim'
+Plug 'akinsho/bufferline.nvim'
 " Plug 'ryanoasis/vim-devicons'
-Plug 'itchyny/lightline.vim'
-Plug 'mengelbrecht/lightline-bufferline'
+" Plug 'itchyny/lightline.vim'
+" Plug 'mengelbrecht/lightline-bufferline'
 
 call plug#end()
 
