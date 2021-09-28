@@ -1,7 +1,7 @@
 # Vimplicity
 
-Wanted a fully-fledged Neovim setup without the hassle and tears? Instantly get
-a fully-setup, completely configurable Neovim IDE.
+Want a fully-fledged Neovim setup without the hassle and tears? Instantly get
+a fully-setup Neovim IDE that you can configure and extend however you wish.
 
 [Photo / Gif]
 
@@ -14,28 +14,18 @@ minimal IDE experience in neovim.
 
 - 📦 **Easy**: Getting setup is simple
 - 🚀 **Featured**: [LSP support](https://github.com/neoclide/coc.nvim), Folding, Fuzzy Finding,  Sidebar, and so much more.
-- 🔌 **Configurable**: Easily add, configure, and extend with the 
-
-This project is primarily a curated collection of plugins that work well
-together to provide minimal IDE experience in neovim.
+- 🔌 **Configurable**: Easily add, configure, and extend as you would with plain Neovim
 
 ## Installation
 
-Look at `steps.sh`....
-
-Install script?
-
-### Prerequisites
-1. [Install neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim). If you have homebrew: `brew install neovim`
-2. Install nodejs >= 12.12 for [CoC](https://github.com/neoclide/coc.nvim).
-```
-curl -sL install-node.now.sh/lts | bash
-```
-3. Clone repo
+TBD. Look at `steps.sh`....
 
 ## Workflows & Setup decisions
 
-These are the most common functionality people use to 
+This project believes in strong opinions held loosely. The choices of plugins
+made below enable the project to provide an minimal, polished IDE for anyone to
+get started. More opinionated users can replace any of these plugins with an
+alternative or even write their own.
 
 ### Navigation, Search, and Replace
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim) combined with [FZF](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
