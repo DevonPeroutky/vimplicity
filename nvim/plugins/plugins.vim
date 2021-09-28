@@ -103,15 +103,14 @@ Plug 'sindrets/diffview.nvim'
 " ----------------------------
 " Tabline
 " ----------------------------
-" Plug 'ap/vim-buftabline'
 Plug 'akinsho/bufferline.nvim'
-" Plug 'ryanoasis/vim-devicons'
-" Plug 'itchyny/lightline.vim'
-" Plug 'mengelbrecht/lightline-bufferline'
+
+" ----------------------------
+" Testing
+" ----------------------------
+Plug 'vim-test/vim-test'
 
 call plug#end()
-
-" colorscheme dracula
 
 syntax on
 let g:nord_contrast = v:true
@@ -119,13 +118,6 @@ let g:nord_borders = v:true
 let g:nord_cursorline_transparent = v:true
 let g:nord_italic = v:false
 colorscheme nord
-" let g:material_theme_style = 'darker'
-" colorscheme material
-
-" set termguicolors
-" lua << EOF
-" require("bufferline").setup{}
-" EOF
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {

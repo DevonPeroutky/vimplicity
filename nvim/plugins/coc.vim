@@ -19,7 +19,7 @@ let g:coc_global_extensions = [
       \ 'coc-metals',
       \ 'coc-pairs',
       \ 'coc-prettier',
-      \ 'coc-python',
+      \ 'coc-pyright',
       \ 'coc-stylelint',
       \ 'coc-syntax',
       \ 'coc-tailwindcss',
