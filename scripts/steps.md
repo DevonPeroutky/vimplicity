@@ -23,10 +23,7 @@ $XDG_CONFIG_HOME="~/.config/vimplicity"
 ```
 
 # 5. Install Plugins & CoC extensions?
-```
-nvim :PlugInstall ?
-```
-
+Happens automatically
 
 # UX
 ## Installation

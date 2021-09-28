@@ -1,11 +1,17 @@
 # Immediate
 
 - Setup Python?
+- Tone down Terminal default height
 - Vim-test and https://github.com/tpope/vim-dispatch
 - [Better Quickfix?](https://github.com/kevinhwang91/nvim-bqf)
+- **How to handle refactoring (aka. find and replace)**
+  - vim-grep? No telescope replacement for `:vimgrep search_phrase **/**.py`
+  - Integrate with the quickfix list? --> `<C-q>` --> `:cfdo %s/old/new/gc`?
+  - Replace [Find And Replace](https://github.com/brooth/far.vim) commands with Telescope + quickfix?
 
 ## Productionize
 
+- Update documentation
 - Vim-Cheatsheet
 - Cleanup / reorganize Documentation commands and key mappings
 - Move default config location for neovim
