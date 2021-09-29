@@ -6,7 +6,7 @@ a fully-setup Neovim IDE that you can configure and extend however you wish.
 [Photo / Gif]
 
 
-## The Why
+### The Why
 
 The goal of this is to provide a complete Neovim setup out-of-the-box that can
 still be configured and extended by advanced users. This project accomplishes
@@ -18,9 +18,10 @@ minimal IDE experience in neovim.
 - ⚙️  **Configurable**: Easily add, configure, and extend as you would with plain Neovim
 
 
-## Installation
+### Installation
 
 TBD. Look at [steps.sh](./scripts/steps.md)....
+
 
 
 # Workflows & Setup decisions
@@ -58,6 +59,7 @@ but very convenient and integrates with  NvimTree, NerdTree, CHADTree, Fern,
 Telescope, Snap, FZF, Diffview.nvim QuickFix, and Tmux.
 
 
+
 ## IDE Features
 ### Language Server
 This project makes heavy use of [Coc.nvim](https://github.com/neoclide/coc.nvim) for
@@ -65,31 +67,31 @@ full LSP support. You can configure the project settings in
 [coc-settings.json](./nvim/coc-settings.json) and you can add additional
 language support in [plugins/coc.vim](./nvim/plugins/coc.vim)
 
-#### Code Comments
+### Code Comments
 Toggling code/code blocks with hotkeys is handled by
 [vim-commentary](https://github.com/tpope/vim-commentary). You can refer
 the plugin for documentation and hotkeys.
 
-#### Folding
+### Folding
 Toggling code folds with hotkeys is handled by [Vim-Anyfold](https://github.com/pseewald/vim-anyfold).
 You can refer the plugin for documentation and hotkeys.
 
 
-#### Terminal
+### Terminal
 This project uses Neoterm for the terminal. The hotkey to toggle it is `<C-t>`. 
 You can configure it via the `ez_terminal_key` in [plugins/custom/window-management.vim](./nvim/plugins/custom/window-management.vim)
 
-#### Git
+### Git
 There isn't too much configuration around git. Just [vim-fugitive](https://github.com/tpope/vim-fugitive)
 and [diffview](https://github.com/sindrets/diffview.nvim). You can refer to their documentation for usage
 
 
-#### Testing
+### Testing
 [vim-test](https://github.com/vim-test/vim-test) is a plugin for running tests 
 on various granularities and [vim-dispatch](https://github.com/tpope/vim-dispatch) 
 enables these to be run asynchronously.
 
-### Base
+## Base
 There are a few basic packages and plugins to be aware of:
 - [Vim-Plug](https://github.com/junegunn/vim-plug) is the plugin manager of choice, 
 - [Vim-Sensible](https://github.com/tpope/vim-sensible) provides sensible defaults
