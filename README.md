@@ -23,43 +23,43 @@ minimal IDE experience in neovim.
 TBD. Look at [steps.sh](./scripts/steps.md)....
 
 
-## Workflows & Setup decisions
+# Workflows & Setup decisions
 
 This project believes in strong opinions held loosely. The choices of plugins
 made below enable the project to provide an minimal, polished IDE for anyone to
 get started. More opinionated users can replace any of these plugins with an
 alternative or even write their own.
 
-### Navigation, Search, and Replace
+## Navigation, Search, and Replace
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim) combined with [FZF](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
 - [FZF](https://github.com/junegunn/fzf.vim)
 
-### Visual Display
+## Visual Display
 
-#### Tabline & Statusline
+### Tabline & Statusline
 [Bufferline](https://github.com/akinsho/bufferline.nvim) was chosen as the
 configured Tabline because of it's simplicity and ease of configuring. If the 
 user wants a Statusline, they are welcome to choose any of the popular open-source
 statuslines ([Vim-airline](https://github.com/vim-airline/vim-airline), [Lightline](https://github.com/itchyny/lightline.vim), etc)
 
-#### Sidebar
+### Sidebar
 [Coc-explorer](https://github.com/weirongxu/coc-explorer) is the chosen sidebar
 for it's integration with coc. However, [NERDTree](https://github.com/preservim/nerdtree)
 would work fine as well.
 
-#### Theme
+### Theme
 The theme is currently set to [Nordic Theme](https://github.com/arcticicestudio/nord-vim), but
 you can override this with any theme easily.
 
-#### Adjustable windows
+### Adjustable windows
 Using [Focus.nvim](https://github.com/beauwilliams/focus.nvim) to auto resize
 windows to best display contents of buffers. This is definitely not necessary
 but very convenient and integrates with  NvimTree, NerdTree, CHADTree, Fern,
 Telescope, Snap, FZF, Diffview.nvim QuickFix, and Tmux.
 
 
-### IDE Features
-#### Language Server
+## IDE Features
+### Language Server
 This project makes heavy use of [Coc.nvim](https://github.com/neoclide/coc.nvim) for
 full LSP support. You can configure the project settings in
 [coc-settings.json](./nvim/coc-settings.json) and you can add additional
