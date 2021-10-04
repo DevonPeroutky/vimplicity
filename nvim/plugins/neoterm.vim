@@ -7,6 +7,7 @@ set splitbelow
 
 " Clear the terminal and Rerun last command
 fun! ClearTerminalAndRerun()
+  Tkill
   write
   T clear
   T !-2
