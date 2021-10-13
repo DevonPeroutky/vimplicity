@@ -4,6 +4,7 @@
 
 # 0. Install Dependencies
 - Install nodejs>=12.12 for Coc.Nvim `curl -sL install-node.now.sh/lts | bash`
+- Yarn
 - RipGrep
 
 # 1. Install Neovim (Does it need to be nightly?)
@@ -16,10 +17,14 @@ brew install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-# 4. Install repo and set path to init.vim
+# 4. Install repo
 ```
-cp -P nvim ~/.config/vimplicity
-$XDG_CONFIG_HOME="~/.config/vimplicity"
+cd /wherever/you/want/this/repo/to/live
+git clone https://github.com/DevonPeroutky/vimplicity.git
+
+#5. Symlink neovim configuration to repository
+cd ~/.config/
+ln -vs /absolute/path/to/vimplicity/nvim nvim
 ```
 
 # 5. Install Plugins & CoC extensions?
@@ -27,25 +32,14 @@ Happens automatically
 
 # UX
 ## Installation
-```
-cd ~/.config/
-git clone https://github.com/DevonPeroutky/vimplicity 
-cd vimplicity;
-./setup.sh;
-```
-
+TBD
 
 ## Update
-```
-cd ~/.config/vimiplicity
-git pull origin
-re-source neovim
-```
+TBD
 
 ## Custom setup
 ```
 git checkout -b my-custom-branch
-
 ```
 
 
