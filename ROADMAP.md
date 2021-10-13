@@ -11,7 +11,7 @@
 
 ## Productionize
 
-- Update documentation
+- Update the documentation
 - Vim-Cheatsheet
 - Cleanup / reorganize Documentation commands and key mappings
 - Move default config location for neovim
