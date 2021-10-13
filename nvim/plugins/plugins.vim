@@ -61,9 +61,9 @@ Plug 'tpope/vim-commentary'
 " Plug 'camspiers/lens.vim'
 
 " --------------
-" NERDTree
+" Sidebar (using coc-explorer as defined in coc.vim)
 " --------------
-Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 
 " --------------
 " Telescope
