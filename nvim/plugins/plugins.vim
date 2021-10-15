@@ -109,6 +109,7 @@ Plug 'akinsho/bufferline.nvim'
 " Testing
 " ----------------------------
 Plug 'vim-test/vim-test'
+Plug 'tpope/vim-dispatch'
 
 call plug#end()
 
