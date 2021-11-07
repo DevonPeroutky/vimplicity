@@ -4,10 +4,11 @@
 filetype plugin indent on " required
 syntax on                 " required
 set foldmethod=syntax
+" autocmd Filetype * AnyFoldActivate
 set foldlevel=99 " Open all folds
 
 " Can not enable this on all files or Telescope preview
-" becomes too slow to use. We should just switch this 
+" becomes too slow to use. We should just switch this
 " to manually filter out Telescope "files"
 " autocmd Filetype * AnyFoldActivate
 
@@ -23,4 +24,3 @@ command Af :AnyFoldActivate
 
 
 " TODO: Eventually we should migrate to nvim-treesitter folding
-

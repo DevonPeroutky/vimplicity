@@ -1,6 +1,5 @@
 # Immediate
 
-- Setup Python?
 - Tone down Terminal default height
 - Vim-test and https://github.com/tpope/vim-dispatch
 - [Better Quickfix?](https://github.com/kevinhwang91/nvim-bqf)
