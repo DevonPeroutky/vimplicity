@@ -19,8 +19,6 @@ fun! CloseAllWithoutWritingTerminalBuffer()
   execute "wqa<CR>"
 endfun
 
-" Escape and leave terminal at once
-tnoremap <Esc> <C-\><C-n>
 
 " Enter and leave terminal mode (insert mode) when switching between buffers
 autocmd BufWinEnter,WinEnter term://* startinsert
@@ -28,15 +26,20 @@ autocmd BufLeave term://* stopinsert
 
 let g:neoterm_autoinsert = 1
 let g:neoterm_default_mod = 'botright'
-let g:neoterm_clear_cmd = ["\<c-\>"]
+let g:neoterm_clear_cmd = ["\<C-c>"]
 
+" --------------------------------------------
+" HotKeys
+" --------------------------------------------
+" Escape and leave terminal at once
+tnoremap <Esc> <C-\><C-n>
 
 " Navigation commands
 tnoremap <C-K> <C-\><C-n><C-W>k
 tnoremap <C-J> <C-\><C-n><C-W>j
 tnoremap <C-H> <C-\><C-n><C-W>h
 tnoremap <C-L> <C-\><C-n><C-W>l
-tnoremap <C-t> <C-\><C-n><C-t>
+tnoremap <C-t> <C-\><C-n> :Ttoggle<CR>
 
 " --------------------------------------------
 " Commands
