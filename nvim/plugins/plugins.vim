@@ -78,6 +78,7 @@ Plug 'BurntSushi/ripgrep'
 " --------------
 Plug 'shaunsingh/nord.nvim'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'ayu-theme/ayu-vim'
 
 " --------------
 " NeoFormat
@@ -112,13 +113,6 @@ Plug 'vim-test/vim-test'
 Plug 'tpope/vim-dispatch'
 
 call plug#end()
-
-syntax on
-let g:nord_contrast = v:true
-let g:nord_borders = v:true
-let g:nord_cursorline_transparent = v:true
-let g:nord_italic = v:false
-colorscheme nord
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {

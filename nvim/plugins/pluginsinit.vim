@@ -14,6 +14,7 @@ source $HOME/.config/nvim/plugins/telescope.vim
 source $HOME/.config/nvim/plugins/neoformat.vim
 source $HOME/.config/nvim/plugins/bufferline.vim
 source $HOME/.config/nvim/plugins/vim-test.vim
+source $HOME/.config/nvim/plugins/color_scheme.vim
 
 " Source our custom plugins
 source $HOME/.config/nvim/plugins/custom/window-management.vim
