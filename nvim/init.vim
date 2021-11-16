@@ -13,11 +13,6 @@ source $HOME/.config/nvim/key-bindings.vim
 " --------------------------
 source $HOME/.config/nvim/general.vim
 
-" --------------------------
-" Folding
-" --------------------------
-source $HOME/.config/nvim/folding.vim
-
 " ------------------------------
 " Tabl/Status Line configuration
 " ------------------------------
