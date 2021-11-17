@@ -1,6 +1,6 @@
-" --------------------------------------------
-" This file contains our key-binding overrides
-" --------------------------------------------
+" -------------------------------------------------------------
+" This file contains general, non-plugin-specific hotkeys
+" -------------------------------------------------------------
 function! CopyFromClipboard()
    normal "*p
 endfunction

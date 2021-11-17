@@ -9,28 +9,23 @@ source $HOME/.config/nvim/plugins/pluginsinit.vim
 source $HOME/.config/nvim/key-bindings.vim
 
 " --------------------------
+" Commands Configuration
+" --------------------------
+source $HOME/.config/nvim/commands.vim
+
+" ----------------------------
+" TPope Sensible Configuration
+" ----------------------------
+" source $HOME/.config/nvim/sensible.vim
+
+" --------------------------
 " Base Configuration
 " --------------------------
 source $HOME/.config/nvim/general.vim
 
 " --------------------------
-" Folding
+" Import Lua scripts
 " --------------------------
-source $HOME/.config/nvim/folding.vim
-
-" ------------------------------
-" Tabl/Status Line configuration
-" ------------------------------
-set noshowmode " turn off extra -- INSERT --
-set noruler
-set cmdheight=1
-set noshowcmd
-set laststatus=0
-hi StatusLine guifg=#D8DEE9 guibg=#2E3440
-
-" " --------------------------
-" " Import Lua scripts
-" " --------------------------
 lua require('base')
 lua require('_telescope')
 lua require('_bufferline')

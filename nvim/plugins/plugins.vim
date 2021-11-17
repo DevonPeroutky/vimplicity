@@ -4,7 +4,7 @@ call plug#begin("~/.vim/plugged")
 " General
 " --------------
 " Sensible defaults
-Plug 'tpope/vim-sensible'
+" Plug 'tpope/vim-sensible'
 
 " Able to editor via the QuickFix Menu
 Plug 'stefandtw/quickfix-reflector.vim'
@@ -100,6 +100,7 @@ Plug 'beauwilliams/focus.nvim'
 " ----------------------------
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
+Plug 'tpope/vim-rhubarb'
 
 " ----------------------------
 " Tabline
