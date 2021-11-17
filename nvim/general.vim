@@ -15,6 +15,8 @@ set noruler
 set cmdheight=1
 set noshowcmd
 set laststatus=0
+set noshowcmd  " to get rid of display of last command
+set shortmess+=F  " to get rid of the file name displayed in the command line bar
 
 " ------------------------------
 " Hide Sign Column

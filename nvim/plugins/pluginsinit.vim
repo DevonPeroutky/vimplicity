@@ -19,4 +19,3 @@ source $HOME/.config/nvim/plugins/anyfold.vim
 
 " Source our custom plugins
 source $HOME/.config/nvim/plugins/custom/window-management.vim
-

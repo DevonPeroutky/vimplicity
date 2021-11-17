@@ -4,7 +4,7 @@ call plug#begin("~/.vim/plugged")
 " General
 " --------------
 " Sensible defaults
-Plug 'tpope/vim-sensible'
+" Plug 'tpope/vim-sensible'
 
 " Able to editor via the QuickFix Menu
 Plug 'stefandtw/quickfix-reflector.vim'
