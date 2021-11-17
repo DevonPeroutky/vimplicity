@@ -101,6 +101,7 @@ Plug 'beauwilliams/focus.nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
 Plug 'tpope/vim-rhubarb'
+Plug 'shumphrey/fugitive-gitlab.vim'
 
 " ----------------------------
 " Tabline

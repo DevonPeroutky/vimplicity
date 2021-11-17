@@ -16,6 +16,7 @@ source $HOME/.config/nvim/plugins/bufferline.vim
 source $HOME/.config/nvim/plugins/vim-test.vim
 source $HOME/.config/nvim/plugins/color_scheme.vim
 source $HOME/.config/nvim/plugins/anyfold.vim
+source $HOME/.config/nvim/plugins/gitlab.vim
 
 " Source our custom plugins
 source $HOME/.config/nvim/plugins/custom/window-management.vim
