@@ -18,3 +18,5 @@ noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
 noremap <C-x> :call CloseCurrentBuffer()<CR>
+
+noremap <esc><esc> :nohlsearch<CR>
