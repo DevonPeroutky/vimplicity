@@ -1,9 +1,9 @@
 # Vimplicity
 
-Want a fully-fledged Neovim setup without the hassle and tears? Instantly get
+Always wanted a fully-fledged Neovim setup without the hassle and tears? Instantly get
 a fully-setup Neovim IDE that you can configure and extend however you wish.
 
-[Photo / Gif]
+<img width="1783" alt="Screen Shot 2022-09-24 at 5 51 49 PM" src="https://user-images.githubusercontent.com/36947377/192119894-2db4ed36-d06f-4879-8016-f782c017aeb5.png">
 
 
 ### The Why
